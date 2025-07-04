@@ -1,0 +1,208 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+}
+
+p{
+    color: #00bfff;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+/* Main Links Section */
+.main-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.main-links a {
+    background-color: #1e1e1e;
+    color: #00bfff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.main-links a:hover {
+    background-color: #00bfff;
+    color: #121212;
+    transform: translateY(-3px);
+}
+
+/* Years Container */
+.years-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Each Year Card */
+.year-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+.year-card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #00bfff;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+/* Subjects Grid */
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+}
+
+/* Subject Card */
+.subject-card {
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.subject-card h3 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #00bfff;
+    font-size: 1rem;
+}
+
+/* Links inside subject */
+.subject-links {
+    display: flex;
+    gap: 8px;
+}
+
+.subject-links a {
+    flex: 1;
+    background-color: #333;
+    color: #00bfff;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.subject-links a:hover {
+    background-color: #00bfff;
+    color: #121212;
+    transform: translateY(-2px);
+}
+
+
+/*=============================================================================================*/
+.katedra {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+.katedra h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+.listakatedri{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.listakatedri a {
+    background-color: #333;
+    color: #00bfff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.listakatedri a:hover {
+    background-color: #00bfff;
+    color: #121212;
+    transform: translateY(-3px);
+}
+
+.infotab {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+.infotab h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+.p2{ /*katedre text klasa*/
+    color: #00bfff;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    margin-top: 3px;
+}
+
+.p3{ /*info tab text klasa*/
+    color: #bdbdbd;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 3px;
+}
