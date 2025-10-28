@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="stilovi/raspored.css">
+</head>
+<body style="background-image: url('1images/bg2pdf.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+  <a href="homepage.html" class="home-link"><b>Početna stranica</b></a>
+  
+  <div class="container">
+    <h1>📅 Rasporedi nastave po semestrima</h1>
+    
+    <input type="text" id="searchInput" placeholder="Pretraži slike po nazivu ili kategoriji...">
+    
+    <div id="categoriesContainer">
+      <!-- Category sections will be dynamically loaded here -->
+    </div>
+  </div>
+
+  <!-- Modal for full-size image -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-content-wrapper" id="modalWrapper">
+      <img class="modal-image" id="modalImage">
+    </div>
+    <div class="zoom-controls">
+      <button class="zoom-btn" id="zoomIn">+</button>
+      <button class="zoom-btn" id="zoomOut">-</button>
+      <button class="zoom-btn" id="resetZoom">⟳</button>
+    </div>
+    <div class="modal-caption" id="modalCaption"></div>
+  </div>
+
+  <!-- U JS fajlu se pozivaju podaci i dodaju nove slike -->
+  <script src="raspored.js"></script>
+</body>
+</html>
