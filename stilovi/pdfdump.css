@@ -47,6 +47,12 @@ li a:hover {
     text-decoration: underline;
 }
 
+p {
+    color: #00bfff;
+    text-align: center;
+    font-style: italic;
+}
+
 a {
     display: block;
     background-color: #1e1e1e;
