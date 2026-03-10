@@ -9,7 +9,7 @@
         { name: "Master - Zimski", url: "1images/imgSemestri/master_ZIMSKI.jpg", category: "2025/2026" },
         { name: "1. God. - Letnji", url: "1images/imgSemestri/1_god_LETNJI.png", category: "2025/2026" },
         { name: "2. God. - Letnji", url: "1images/imgSemestri/2_god_LETNJI.png", category: "2025/2026" },
-        { name: "3. God. - Letnji", url: "1images/imgSemestri/3_god_LETNJI.jpg", category: "2025/2026" },
+        { name: "3. God. - Letnji", url: "1images/imgSemestri/3_god_LETNJI.png", category: "2025/2026" },
         { name: "4. God. - Letnji", url: "1images/imgSemestri/4_god_LETNJI.png", category: "2025/2026" },
         { name: "Master - Letnji", url: "1images/imgSemestri/master_Letnji.png", category: "2025/2026" }
         
@@ -190,6 +190,7 @@
 
     // Initial load
     loadCategories(imagesByCategory);
+
 
 
 
