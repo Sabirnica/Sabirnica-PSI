@@ -5,6 +5,7 @@ body {
     padding: 40px;
     max-width: 600px;
     margin: 0 auto;
+    
 }
 .container {
     max-width: 700px;
@@ -16,14 +17,14 @@ body {
 }
 h1 {
     text-align: center;
-    color: #00bfff;
+    color: #d49013;
 }
 input[type="text"] {
     width: 96%;
     padding: 10px;
     color:#ffffff;
     margin-bottom: 20px;
-    border: 2px solid #00bfff;
+    border: 2px solid #d49013;
     border-radius: 8px;
     background-color: #353535;
 }
@@ -47,16 +48,10 @@ li a:hover {
     text-decoration: underline;
 }
 
-p {
-    color: #00bfff;
-    text-align: center;
-    font-style: italic;
-}
-
 a {
     display: block;
     background-color: #1e1e1e;
-    color: #00bfff;
+    color: #d49013;
     text-decoration: none;
     padding: 15px 20px;
     margin: 12px 0;
@@ -67,8 +62,14 @@ a {
     font-size: 1.1rem;
 }
 
+p {
+    color: #d49013;
+    text-align: center;
+    font-style: italic;
+}
+
 a:hover {
-    background-color: #00bfff;
+    background-color: #d49013;
     color: #121212;
     transform: translateY(-3px);
 }
