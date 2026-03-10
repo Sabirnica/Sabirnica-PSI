@@ -12,6 +12,7 @@
         { name: "3. God. - Letnji", url: "1images/imgSemestri/3_god_Letnji.png", category: "2025/2026" },
         { name: "4. God. - Letnji", url: "1images/imgSemestri/4_god_Letnji.png", category: "2025/2026" },
         { name: "Master - Letnji", url: "1images/imgSemestri/master_LETNJI.png", category: "2025/2026" }
+        
       ],
       "2023/2024": [
         { name: "Kalendar nastave 2023/2024", url: "1images/23-24_rad_kalendar.jpg", category: "2023/2024" }
@@ -189,4 +190,5 @@
 
     // Initial load
     loadCategories(imagesByCategory);
+
 
