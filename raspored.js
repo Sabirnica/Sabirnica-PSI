@@ -1,7 +1,7 @@
 //glavni podaci
     const imagesByCategory = {
       "2026/2027": [
-        { name: "Kalendar nastave 2026/2027", url: "1images/26-27_rad_kalendar.jpg", category: "2026/2027" }
+        { name: "Kalendar nastave 2026/2027", url: "1images/26-27_rad_kalendar.png", category: "2026/2027" }
       ],
       "2025/2026": [
         { name: "Kalendar nastave 25/26", url: "1images/25-26_raspored_rokova.png", category: "2025/2026" },
