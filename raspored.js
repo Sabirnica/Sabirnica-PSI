@@ -1,7 +1,12 @@
 //glavni podaci
     const imagesByCategory = {
       "2026/2027": [
-        { name: "Kalendar nastave 2026/2027", url: "1images/26-27_rad_kalendar.png", category: "2026/2027" }
+        { name: "Kalendar nastave 2026/2027", url: "1images/26-27_rad_kalendar.png", category: "2026/2027" },
+        { name: "1. God. - Zimski", url: "1images/imgSemestri/2026-27/1god_sem_zimski_267.png", category: "2026/2027" },
+        { name: "2. God. - Zimski", url: "1images/imgSemestri/2026-27/2god_sem_zimski_267.png", category: "2026/2027" },
+        { name: "3. God. - Zimski", url: "1images/imgSemestri/2026-27/3god_sem_zimski_267.png", category: "2026/2027" },
+        { name: "4. God. - Zimski", url: "1images/imgSemestri/2026-27/4god_sem_zimski_267.png", category: "2026/2027" },
+        { name: "Master - Zimski", url: "1images/imgSemestri/2026-27/master_sem_zimski_267.png", category: "2026/2027" },
       ],
       "2025/2026": [
         { name: "Kalendar nastave 25/26", url: "1images/25-26_raspored_rokova.png", category: "2025/2026" },
